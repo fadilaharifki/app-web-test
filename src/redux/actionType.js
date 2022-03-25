@@ -1,0 +1,9 @@
+export const USER = "USER"
+
+export const EDUCATION = "EDUCATION"
+export const ADD_EDUCATION = "ADD_EDUCATION"
+export const REMOVE_EDUCATION = "REMOVE_EDUCATION"
+
+export const EXPERIENCE = "EXPERIENCE"
+export const ADD_EXPERIENCE = "ADD_EXPERIENCE"
+export const REMOVE_EXPERIENCE = "REMOVE_EXPERIENCE"
