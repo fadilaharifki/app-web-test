@@ -82,7 +82,7 @@ export default function Home() {
                 }
                 <Button type="button" onClick={() => dispatch(addExperience({}))} color={"green"} label={"Add Experiance"} />
             </div>
-            <Button type="button" onClick={() => dispatch(postDataUser(user, education, experience))} color={"green"} label={"Save"} />
+            <Button className="w-full bg-green-600 hover:bg-green-700 rounded-lg py-2 text-white" type="button" onClick={() => dispatch(postDataUser(user, education, experience))} color={"green"} label={"Save"} />
         </div >
     )
 }
