@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux"
 import { addEducation, addExperience, postDataUser, setUser } from "../../redux/actions/data";
-import Button from "../components/form/button";
-import Input from "../components/form/input";
+import Button from "../../components/form/button";
+import Input from "../../components/form/input";
 import Education from "./education";
 import Experience from "./experience";
 

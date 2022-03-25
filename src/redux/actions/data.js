@@ -1,6 +1,6 @@
 import axios from "axios";
 import { ADD_EDUCATION, ADD_EXPERIENCE, EDUCATION, EXPERIENCE, REMOVE_EDUCATION, REMOVE_EXPERIENCE, USER } from "../actionType";
-import { BASE_URL } from "../../pages/utils/URL";
+import { BASE_URL } from "../../utils/URL";
 export function setUser(payload) {
     return {
         type: USER,

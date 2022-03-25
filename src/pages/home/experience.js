@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import { setExperience, removeExperience } from "../../redux/actions/data";
-import Button from "../components/form/button";
-import Input from "../components/form/input";
+import Button from "../../components/form/button";
+import Input from "../../components/form/input";
 
 export default function Experience({ data, index }) {
     const dispatch = useDispatch()
