@@ -1,1 +1,1 @@
-export const BASE_URL = 'hr.ekrut.co'
+export const BASE_URL = 'http://hr.ekrut.co/'

@@ -37,24 +37,24 @@ export default function Experience({ data, index }) {
             <div className="flex flex-row w-full">
                 <Input
                     label={"Start Date"}
-                    value={data?.startdate || ""}
+                    value={data?.start_date || ""}
                     type={"date"}
-                    placeholder={'startdate'}
+                    placeholder={'start_date'}
                     onChange={(e) => {
                         const obj = { ...data }
-                        obj.startdate = e.target.value
+                        obj.start_date = e.target.value
 
                         dispatch(setExperience(obj, index))
                     }}
                 />
                 <Input
                     label={"End Date"}
-                    value={data?.enddate || ""}
+                    value={data?.end_date || ""}
                     type={"date"}
-                    placeholder={'enddate'}
+                    placeholder={'end_date'}
                     onChange={(e) => {
                         const obj = { ...data }
-                        obj.enddate = e.target.value
+                        obj.end_date = e.target.value
 
                         dispatch(setExperience(obj, index))
                     }}
